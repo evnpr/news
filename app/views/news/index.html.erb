@@ -12,7 +12,7 @@
 </div>
 <% end %>
 <center>
-<div id="name" class="offset3">
+<div id="name" class="">
     
 
 <form action="/" method="post" class="form-search">
@@ -47,7 +47,7 @@
 <% if request.get? %>
     <% @news.each do |n| %>
 <% unless n.title.nil? %>
-<pre class="span8">
+<pre class="span8 offset2">
 <b><a href="<%= n.url %>"><%= n.title %></a></b>
     <%= n.description %>
 </pre>
