@@ -47,7 +47,7 @@ class NewsController < ApplicationController
                 @prev = page
             end
             unless page==@pages+1
-                if page.nil?
+                if page == 0
                     page = 1
                 end
                 @next = page + 1
