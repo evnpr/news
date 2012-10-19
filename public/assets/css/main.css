@@ -8,7 +8,7 @@ background: #236a9b;
 
 #pencitraan
 {
-background: url(../images/pencitraan.jpg) no-repeat;
+background: url(libranews/public/assets/css/img/pencitraan.jpg) no-repeat;
 width: 390px;
 height:316px;
 padding-top: -100px;
@@ -35,4 +35,5 @@ margin-top: 50px;
 {
 background: url(../images/launchhover.png)no-repeat;
 }
+
 
