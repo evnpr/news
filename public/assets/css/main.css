@@ -17,14 +17,14 @@ margin-top: 100px;
 
 .under
 {
-background: url(../../img/under/under.png) no-repeat;
+background: url(/assets/img/under/under.png) no-repeat;
 width: 400px;
 height:97px;
 }
 
 .launch
 {
-background: url(assets/img/under/launch.png) no-repeat;
+background: url(/assets/img/under/launch.png) no-repeat;
 width: 707px;
 height:30px;
 margin-top: 50px;
