@@ -79,6 +79,21 @@ width:960px;
      background:url(/assets/img/trashhover.png) no-repeat;
     } 
     
+.pro{
+    background:url(/assets/img/pro.png) no-repeat;
+    width:60px;
+    height:53px;
+    position: absolute;
+    z-index:1;
+    cursor:pointer;
+    margin-top: 1px;
+    margin-left: 160px;
+    float:left;
+    }
+.pro:hover{
+    background:url(/assets/img/prohover.png) no-repeat;
+    }
+    
 .tagline{
 color: #ffffff;
 font-size: smaller;
