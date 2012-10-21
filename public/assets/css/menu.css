@@ -11,7 +11,8 @@ float:left;
 width: 100%;
 height: 48px;
 margin-top: -10px;
-margin: 0 auto;
+margin-left: auto;
+margin-right: auto;
 }
 
 .wrapmenu{
