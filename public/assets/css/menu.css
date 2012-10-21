@@ -43,7 +43,7 @@ width:960px;
 .eyes:hover{
     background:url(/assets/img/eyeshover.png) no-repeat;
 }
-.eyes:active { background: url(/assets/img/eyeshover.png) no-repeat bottom; }
+.eyes:active { background: url(/assets/img/eyeshover.png) no-repeat ; }
 
 .heart{
     
