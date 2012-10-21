@@ -3,17 +3,10 @@ background: url(/assets/img/logo.png) no-repeat;
 width: 60px;
 height: 48px;
 float:left;
- margin: 0 auto;
-    width:100%;
  }
  
  
- .container {
-    position: relative;
-	height: auto !important;
-	min-width: 100%;
-	min-height: 100%;
-}
+
 
  
 .header{
@@ -30,6 +23,4 @@ color: #ffffff;
 font-size: smaller;
 float:left;
 padding-top: 14px;
- margin: 0 auto;
-    width:100%;
 }
