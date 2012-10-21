@@ -62,6 +62,23 @@ width:960px;
     }
     
     
+    
+    .trash{
+    background:url(/assets/img/trash.png) no-repeat;
+    width:60px;
+    height:53px;
+    position: absolute;
+    z-index:1;
+    cursor:pointer;
+    margin-top: -4px;
+    margin-left: 80px;
+    float:left;
+    }
+    
+ .trash:hover{
+     background:url(/assets/img/trashhover.png) no-repeat;
+    } 
+    
 .tagline{
 color: #ffffff;
 font-size: smaller;
