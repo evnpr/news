@@ -24,14 +24,12 @@ height: 50px;
 width:960px;
 
 }
-.menu{
-    
- float:right;   
-    
-}
+
 
 .eyes{
     background:url(/assets/img/eyes.png) no-repeat;
+    width:69px;
+    height:61px;
     }
     
 .tagline{
