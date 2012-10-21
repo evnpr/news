@@ -27,7 +27,7 @@ width:960px;
 
 .right{
     float:right;
-    width: 30%;}
+    width: 40%;}
 
 .eyes{
     background:url(/assets/img/eyes.png) no-repeat;
@@ -37,7 +37,6 @@ width:960px;
     z-index:1;
     cursor:pointer;
     margin-top: -7px;
-
     float:left;
     }
     
