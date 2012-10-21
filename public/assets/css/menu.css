@@ -14,3 +14,11 @@ width: auto;
 margin-top: -10px;
 margin-left: -10px;
 }
+
+.tagline{
+color: #ffffff;
+font-size: smaller;
+float:left;
+text-align: center;
+padding-bottom:20px;   
+}
