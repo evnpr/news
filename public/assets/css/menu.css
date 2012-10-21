@@ -1,19 +1,87 @@
+h1, p, body, html {
+    margin:0;
+	padding:0;}
+
 .logo{
 background: url(/assets/img/logo.png) no-repeat;
-width: 73px;
-height: 59px;
-margin-top: -10px;
+width: 60px;
+height: 48px;
 float:left;
-margin-left: -10px;
  }
  
+ .container{
+     background: #236a9b;
+     width: 100%;
+     height: 48px;
+     margin: auto 0;
+ }
  
-.header{
- position:absolute;
-    height: 59px;
-    width: auto;
-    line-height: 30px;
-    margin: 0;
-    padding: 0;
-    color:#236a9b;
+
+.wrapmenu{
+margin-left: auto;
+margin-right: auto;
+height: 50px;
+width:960px;
+
+}
+
+.right{
+    float:right;
+    width: 40%;}
+
+.eyes{
+    background:url(/assets/img/eyes.png) no-repeat;
+    width:60px;
+    height:53px;
+    position: absolute;
+    z-index:1;
+    cursor:pointer;
+    margin-top: -7px;
+    float:left;
+    }
+    
+.eyes:hover{
+    background:url(/assets/img/eyeshover.png) no-repeat;
+}
+
+.heart{
+    
+    background:url(/assets/img/heart.png) no-repeat;
+    width:60px;
+    height:53px;
+    position: absolute;
+    z-index:1;
+    cursor:pointer;
+    margin-top: -4px;
+    margin-left: 80px;
+    float:left;
+    }
+    
+.heart:hover{
+     background:url(/assets/img/hearthover.png) no-repeat;
+    }
+    
+    
+    
+    .trash{
+    background:url(/assets/img/trash.png) no-repeat;
+    width:60px;
+    height:53px;
+    position: absolute;
+    z-index:1;
+    cursor:pointer;
+    margin-top: 1px;
+    margin-left: 160px;
+    float:left;
+    }
+    
+ .trash:hover{
+     background:url(/assets/img/trashhover.png) no-repeat;
+    } 
+    
+.tagline{
+color: #ffffff;
+font-size: smaller;
+float:left;
+padding-top: 14px;
 }
