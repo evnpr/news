@@ -24,7 +24,11 @@ height: 50px;
 width:960px;
 
 }
-
+.menu{
+    
+ float:right;   
+    
+}
 .tagline{
 color: #ffffff;
 font-size: smaller;
