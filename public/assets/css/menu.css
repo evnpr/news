@@ -70,8 +70,8 @@ width:960px;
     position: absolute;
     z-index:1;
     cursor:pointer;
-    margin-top: -1px;
-    margin-left: 150px;
+    margin-top: 0px;
+    margin-left: 160px;
     float:left;
     }
     
