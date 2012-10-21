@@ -32,6 +32,8 @@ width:960px;
     background:url(/assets/img/eyes.png) no-repeat;
     width:69px;
     height:61px;
+    position: absolute;
+    z-index:1;
     }
     
     
