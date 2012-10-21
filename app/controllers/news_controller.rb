@@ -58,3 +58,4 @@ class NewsController < ApplicationController
   end
 end
 
+
