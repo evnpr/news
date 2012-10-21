@@ -95,18 +95,18 @@ width:960px;
     }
     
 .kontra{
-    background:url(/assets/img/pro.png) no-repeat;
+    background:url(/assets/img/kontra.png) no-repeat;
     width:60px;
     height:53px;
     position: absolute;
     z-index:1;
     cursor:pointer;
     margin-top: 2px;
-    margin-left: 240px;
+    margin-left: 320px;
     float:left;
     }
 .kontra:hover{
-    background:url(/assets/img/prohover.png) no-repeat;
+    background:url(/assets/img/kontrahover.png) no-repeat;
     }
         
     
