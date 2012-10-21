@@ -40,6 +40,10 @@ width:960px;
     float:left;
     }
     
+.eyes:hover{
+    background:url(/assets/img/eyeshover.png) no-repeat;
+}
+    
     
 .tagline{
 color: #ffffff;
