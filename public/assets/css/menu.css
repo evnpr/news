@@ -11,9 +11,6 @@ margin-left: -10px;
 .header{
  background: url(/assets/img/headerbg.png) scroll 0 0 transparent repeat;
     height: 48px;
-    width: auto;
-    line-height: 30px;
-    margin: 0;
-    padding: 0;
-    color:#236a9b;
+    margin: 0 auto;
+width: auto;
 }
