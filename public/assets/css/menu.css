@@ -6,14 +6,18 @@ float:left;
  }
  
  
-
-
- 
 .header{
  background: url(/assets/img/headerbg.png) scroll 0 0 transparent repeat;
 height: 48px;
 margin-top: -10px;
 margin-left: -10px;
+}
+
+.wrapmenu{
+width:960px;
+margin-left: auto;
+margin-right: auto;
+height: 50px;
 
 }
 
