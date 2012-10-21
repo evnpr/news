@@ -22,9 +22,9 @@ width: 400px;
 height:97px;
 }
 
-.tooltip
+.tooltip:focus
 {
-border-bottom: 0px dotted #000000; color: #000000; outline: none;
+border-bottom: dotted #000000; color: #000000; outline: none;
 cursor:pointer; text-decoration: none;
 position: relative;
 font-family: "Trebuchet MS";
