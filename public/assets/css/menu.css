@@ -10,7 +10,9 @@ margin-left: -10px;
  
 .header{
  background: url(/assets/img/headerbg.png) scroll 0 0 transparent repeat;
-    height: 48px;
-    margin: 0 auto;
+height: 48px;
+margin: 0 auto;
 width: auto;
+margin-top: -10px;
+margin-left: -10px;
 }
