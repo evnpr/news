@@ -6,7 +6,7 @@ Libranews::Application.routes.draw do
 
   # Sample of regular route:
   match 'page/:page' => 'news#index'
-  get 'main/jancuk' => 'main#index'
+  get 'main/' => 'main#index'
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:
