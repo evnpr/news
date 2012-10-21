@@ -5,6 +5,12 @@ height: 48px;
 float:left;
  }
  
+ .container{
+     background: #236a9b;
+     width: 100%;
+     height: 48px;
+     margin: auto 0px;
+ }
  
 .header{
 background: url(/assets/img/headerbg.png) scroll 0 0 transparent repeat-x;
