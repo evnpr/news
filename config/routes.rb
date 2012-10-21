@@ -1,4 +1,6 @@
 Libranews::Application.routes.draw do
+  get "main/index"
+
   post "news/index"
 
   # The priority is based upon order of creation:
