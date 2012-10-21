@@ -57,6 +57,10 @@ width:960px;
     float:left;
     }
     
+.heart:hover{
+     background:url(/assets/img/hearthover.png) no-repeat;
+    }
+    
     
 .tagline{
 color: #ffffff;
