@@ -1,4 +1,4 @@
-class NewsController < ApplicationController
+class MainController < ApplicationController
   def index
     
   end
