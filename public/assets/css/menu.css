@@ -31,8 +31,8 @@ width:960px;
 
 .eyes{
     background:url(/assets/img/eyes.png) no-repeat;
-    width:69px;
-    height:61px;
+    width:60px;
+    height:53px;
     position: absolute;
     z-index:1;
     cursor:pointer;
@@ -43,6 +43,19 @@ width:960px;
 .eyes:hover{
     background:url(/assets/img/eyeshover.png) no-repeat;
 }
+
+.heart{
+    
+    background:url(/assets/img/heart.png) no-repeat;
+    width:60px;
+    height:53px;
+    position: absolute;
+    z-index:1;
+    cursor:pointer;
+    margin-top: -7px;
+    margin-left: 10px;
+    float:left;
+    }
     
     
 .tagline{
