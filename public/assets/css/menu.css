@@ -27,12 +27,14 @@ h1, p, body, html {
 		.tooltip2 span {
 			margin-left: -999em;
 			position: absolute;
+            padding-right:100px;
            
 		}
 		.tooltip2:hover span { 
 			font-family: Calibri, Tahoma, Geneva, sans-serif;
 			position: absolute; left: 2em; top: 5.5em; 
 			margin-left: 0;
+            padding-right:100px;
             
 		}
 .classic { padding: 0.1px 5px; 
