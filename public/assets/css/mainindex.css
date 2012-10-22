@@ -9,8 +9,6 @@ h1, p, body, html {
   src: url(/assets/fonts/PTSans.ttc);
 }
    
-
-
 .started{
     font-size: smaller;
     }
@@ -18,7 +16,6 @@ h1, p, body, html {
 .line-separator{
 height:1px;
 background:black;
-border-bottom:1px solid black;
 }
 
     
