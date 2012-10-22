@@ -1,0 +1,19 @@
+h1, p, body, html {
+    margin:0;
+    padding:0;
+    font-family: ‘PTSans’,Trebuchet MS, Helvetica, sans-serif;
+}
+    
+@font-face {
+  font-family: PTSans.ttc;
+  src: url(/assets/fonts/PTSans.ttc);
+}
+   
+
+
+.started{
+    font-size: smaller;
+    
+    }
+    
+    
