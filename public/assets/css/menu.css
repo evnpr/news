@@ -4,7 +4,7 @@ h1, p, body, html {
     
 .tooltip {
     		border-bottom: 1px dotted #000000; color: #000000; outline: none;
-			cursor: pointer; text-decoration: none;
+			text-decoration: none;
 			position: relative;
 		}
 		.tooltip span {
