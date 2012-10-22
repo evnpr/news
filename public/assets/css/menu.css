@@ -13,7 +13,7 @@ h1, p, body, html {
 		}
 		.tooltip:hover span { 
 			font-family: Calibri, Tahoma, Geneva, sans-serif;
-			position: absolute; left: 2em; top: 6em; 
+			position: absolute; left: 2em; top: 5.5em; 
 			margin-left: 0;
 		}
 		.classic { padding: 0px 5px; 
