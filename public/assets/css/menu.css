@@ -26,6 +26,7 @@ h1, p, body, html {
         	border-bottom: 1px dotted #000000; color: #000000; outline: none;
 			text-decoration: none;
 			position: relative;
+            margin-right:50px;
 		}
 		.tooltip span {
 			margin-left: -999em;
