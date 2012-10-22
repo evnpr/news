@@ -18,7 +18,7 @@ h1, p, body, html {
 		}
 		.classic { padding: 0px 10px; 
         background: #FFFFAA; 
-        box-shadow: 10px 10px 5px black;
+        box-shadow: 0.1px 0.1px 0.5px black;
         font-size:xx-small;}
 
 .logo{
