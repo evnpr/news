@@ -16,7 +16,7 @@ h1, p, body, html {
 			position: absolute; left: 0em; top: 3em; 
 			margin-left: 0; width: 20px; height:20px;
 		}
-		.classic { padding:auto; 
+		.classic { padding:inherit; 
         background: #FFFFAA; }
 
 .logo{
