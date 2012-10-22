@@ -16,6 +16,7 @@ h1, p, body, html {
 			font-family: Calibri, Tahoma, Geneva, sans-serif;
 			position: absolute; left: 1em; top: 2em; 
 			margin-left: 0; width: 20px;
+            height:20px;
 		}
 		.classic { padding: 1em 1em; 
         background: #FFFFAA; border: 1px solid #FFAD33;}
