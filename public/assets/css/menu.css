@@ -24,7 +24,7 @@ h1, p, body, html {
           
 		}
 		.tooltip2 span {
-			
+			margin-left: -999em;
 			position: absolute;
            
 		}
