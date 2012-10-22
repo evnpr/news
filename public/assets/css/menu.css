@@ -40,11 +40,11 @@ width:960px;
     float:left;
     }
     
-.eyes:hover {
+.eyes:hover, div.right a.eyes:focus{
     background:url(/assets/img/eyeshover.png) no-repeat;
 }
 
-div.right a.eyes:focus{
+{
      background:url(/assets/img/eyeshover.png) no-repeat;
     
     }
