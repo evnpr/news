@@ -34,6 +34,7 @@ width:960px;
 
 ul.eyes {
     list-style: none outside none;
+    text-decoration:none;
 }
 
 .eyes{
