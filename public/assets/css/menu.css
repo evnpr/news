@@ -1,9 +1,6 @@
 h1, p, body, html {
     margin:0;
 	padding:0;}
-    
-    
-
 
 .logo{
 background: url(/assets/img/logo.png) no-repeat;
@@ -32,11 +29,6 @@ width:960px;
     float:right;
     width: 40%;}
 
-ul.eyes {
-    list-style: none outside none;
-    text-decoration:none;
-}
-
 .eyes{
     background:url(/assets/img/eyes.png) no-repeat;
     width:60px;
@@ -48,7 +40,7 @@ ul.eyes {
     float:left;
     }
     
-.eyes:hover {
+.eyes:hover{
     background:url(/assets/img/eyeshover.png) no-repeat;
 }
 
@@ -61,6 +53,7 @@ ul.eyes {
     position: absolute;
     z-index:1;
     cursor:pointer;
+    margin-top: -4px;
     margin-left: 80px;
     float:left;
     }
@@ -78,6 +71,7 @@ ul.eyes {
     position: absolute;
     z-index:1;
     cursor:pointer;
+    margin-top: 1px;
     margin-left: 160px;
     float:left;
     }
@@ -93,6 +87,7 @@ ul.eyes {
     position: absolute;
     z-index:1;
     cursor:pointer;
+    margin-top: 2px;
     margin-left: 240px;
     float:left;
     }
@@ -107,6 +102,7 @@ ul.eyes {
     position: absolute;
     z-index:1;
     cursor:pointer;
+    margin-top: 2px;
     margin-left: 310px;
     float:left;
     }
