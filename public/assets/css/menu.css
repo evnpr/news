@@ -16,6 +16,21 @@ h1, p, body, html {
 			position: absolute; left: 2em; top: 5.5em; 
 			margin-left: 0;
 		}
+        
+        .tooltip2 {
+        	border-bottom: 1px dotted #000000; color: #000000; outline: none;
+			text-decoration: none;
+			position: absolute;
+		}
+		.tooltip2 span {
+			margin-left: -999em;
+			position: absolute;
+		}
+		.tooltip2:hover span { 
+			font-family: Calibri, Tahoma, Geneva, sans-serif;
+			position: absolute; left: 2em; top: 5.5em; 
+			margin-left: 0;
+		}
 .classic { padding: 0.1px 5px; 
         background: #FFFFAA; 
         box-shadow: 0.1px 0.1px 0.5px black;
