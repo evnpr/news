@@ -10,7 +10,6 @@ h1, p, body, html {
 		.tooltip span {
 			margin-left: -999em;
 			position: absolute;
-            margin-right: 50px;
 		}
 		.tooltip:hover span { 
 			font-family: Calibri, Tahoma, Geneva, sans-serif;
