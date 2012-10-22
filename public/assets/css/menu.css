@@ -51,7 +51,7 @@ h1, p, body, html {
 		.tooltip3:hover span { 
 			font-family: Calibri, Tahoma, Geneva, sans-serif;
 			position: absolute; left: 2em; top: 5.5em; 
-            margin-left: 180;
+            margin-left: 170;
             
 		}   .tooltip4 {
             border-bottom: 1px dotted #000000; color: #000000; outline: none;
