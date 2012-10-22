@@ -8,7 +8,7 @@ h1, p, body, html {
 			position: relative;
 		}
 		.tooltip span {
-		
+			margin-left: -999em;
 			position: absolute;
 		}
 		.tooltip:hover span { 
