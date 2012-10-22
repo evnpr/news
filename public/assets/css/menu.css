@@ -14,10 +14,10 @@ h1, p, body, html {
 		.tooltip:hover span { 
 			font-family: Calibri, Tahoma, Geneva, sans-serif;
 			position: absolute; left: 0em; top: 3em; 
-			margin-left: 0; width: 20px;
+			margin-left: 0; width: 20px; height:20pxl
 		}
 		.classic { padding: 1em 1em; 
-        background: #FFFFAA; border: 1px solid #FFAD33;}
+        background: #FFFFAA; }
 
 .logo{
 background: url(/assets/img/logo.png) no-repeat;
