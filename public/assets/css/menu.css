@@ -18,7 +18,8 @@ h1, p, body, html {
 			position: absolute; left: 1em; top: 2em; z-index: 99;
 			margin-left: 0; width: 50px;
 		}
-		.classic { padding: 1em 1em; }
+		.classic { padding: 1em 1em; 
+        background: #FFFFAA; border: 1px solid #FFAD33;}
 
 .logo{
 background: url(/assets/img/logo.png) no-repeat;
