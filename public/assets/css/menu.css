@@ -44,6 +44,10 @@ width:960px;
     background:url(/assets/img/eyeshover.png) no-repeat;
 }
 
+div.right a.eyes:focus{
+     background:url(/assets/img/eyeshover.png) no-repeat;
+    
+    }
 
 
 .heart{
