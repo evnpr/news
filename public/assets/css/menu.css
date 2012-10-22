@@ -12,7 +12,6 @@ h1, p, body, html {
 			position: absolute;
 		}
 		.tooltip:hover span { 
-			box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
 			font-family: Calibri, Tahoma, Geneva, sans-serif;
 			position: absolute; left: 1em; top: 2em; 
 			margin-left: 0; width: 20px;
