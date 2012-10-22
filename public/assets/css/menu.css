@@ -37,7 +37,7 @@ ul.eyes {
     text-decoration:none;
 }
 
-ul.eyes li a{
+.eyes{
     background:url(/assets/img/eyes.png) no-repeat;
     width:60px;
     height:53px;
