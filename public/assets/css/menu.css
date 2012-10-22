@@ -1,6 +1,9 @@
 h1, p, body, html {
     margin:0;
 	padding:0;}
+    
+    
+
 
 .logo{
 background: url(/assets/img/logo.png) no-repeat;
@@ -28,6 +31,10 @@ width:960px;
 .right{
     float:right;
     width: 40%;}
+
+ul.eyes {
+    list-style: none outside none;
+}
 
 .eyes{
     background:url(/assets/img/eyes.png) no-repeat;
