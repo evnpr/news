@@ -15,6 +15,7 @@ h1, p, body, html {
     
 .line-separator{
 height:1px;
+width: 100%;
 background:black;
 }
 
