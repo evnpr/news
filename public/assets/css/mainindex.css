@@ -13,17 +13,11 @@ h1, p, body, html {
 
 .started{
     font-size: smaller;
-    
     }
     
-    
-
 .line-separator{
-
 height:1px;
-
 background:black;
-
 border-bottom:1px solid black;
 }
 
