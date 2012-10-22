@@ -9,11 +9,11 @@ h1, p, body, html {
 		}
 		.tooltip span {
 			margin-left: -999em;
-			position: absolute;
+			position: relative;
 		}
 		.tooltip:hover span { 
 			font-family: Calibri, Tahoma, Geneva, sans-serif;
-			position: absolute; left: 2em; top: 5.5em; z-index: 99;
+			position: relative; left: 2em; top: 5.5em; z-index: 99;
 			margin-left: 0;
 		}
 		.classic { padding: 0.1px 5px; 
