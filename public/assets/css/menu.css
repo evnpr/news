@@ -129,7 +129,7 @@ width:800px;
 .right{
     float:right;
     width: 40%;
-    margin-right:10px;}
+    margin-right:-10px;}
 
 .eyes{
     background:url(/assets/img/eyes.png) no-repeat;
