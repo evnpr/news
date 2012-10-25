@@ -73,6 +73,8 @@ class NewsController < ApplicationController
                 file.close
               end
           end
+          
+          redirect_to "/" and return
         end
     
     else
