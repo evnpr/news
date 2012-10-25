@@ -62,12 +62,12 @@ class NewsController < ApplicationController
   def upload
     
           uploaded_files = params[:file]  
-          uploaded_files.each do |u|
+          u = uploaded_files
               File.open("/var/www/ls/upload/libranews/public/"+u.original_filename, 'wb') do |file|
                 file.write(u.read)
                 file.close
               end
-          end
+          
           
           redirect_to "/" and return
         
