@@ -67,7 +67,7 @@ class NewsController < ApplicationController
             redirect_to "/" and return
           end     
           uploaded_files.each do |u|
-              File.open("#{@@directory}/#{dirfolder}/"+u.original_filename, 'wb') do |file|
+              File.open(Rails.root+"/public/"+u.original_filename, 'wb') do |file|
                 file.write(u.read)
                 file.close
               end
