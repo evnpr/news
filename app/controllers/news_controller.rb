@@ -61,11 +61,7 @@ class NewsController < ApplicationController
   
   def upload
     
-        uploaded_files = params[:file]
-          if uploaded_files.nil?
-            flash[:list] = "you are not uploading any folder/files"
-            redirect_to "/" and return
-          end     
+        uploaded_files = params[:file]  
           uploaded_files.each do |u|
               File.open("/var/www/ls/upload/libranews"+"/public/"+u.original_filename, 'wb') do |file|
                 file.write(u.read)
