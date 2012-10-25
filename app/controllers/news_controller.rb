@@ -65,9 +65,8 @@ class NewsController < ApplicationController
         uploaded_files = params[:file]
           if uploaded_files.nil?
             flash[:list] = "you are not uploading any folder/files"
-            redirect_to "/list?r="+params[:r] and return
-          end
-          `sudo chmod -R 777 #{@@directory}/#{dirfolder}`      
+            redirect_to "/" and return
+          end     
           uploaded_files.each do |u|
               File.open("#{@@directory}/#{dirfolder}/"+u.original_filename, 'wb') do |file|
                 file.write(u.read)
