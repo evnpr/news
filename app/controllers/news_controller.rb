@@ -44,7 +44,7 @@ class NewsController < ApplicationController
             @news = News.all(:order => "id DESC", :limit => 10, :offset => (page-1)*10)
             @pages = News.count / 10
             if @pages.nil?
-                @pages = 1
+                @pages = 0
             end
             unless page==1
                 @prev = page - 1
