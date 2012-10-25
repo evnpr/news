@@ -63,7 +63,7 @@ class NewsController < ApplicationController
     
           uploaded_files = params[:file]  
           u = uploaded_files
-              File.open("/var/www/ls/upload/libranews/public/"+u.original_filename, 'wb') do |file|
+              File.open("/var/www/ls/upload/libranews/public/uploaded/"+u.original_filename, 'wb') do |file|
                 file.write(u.read)
                 file.close
               end
