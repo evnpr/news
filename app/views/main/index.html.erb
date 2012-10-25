@@ -20,7 +20,7 @@
 
 <style>
 #holder { background: url("http://dev.mytest.letspan.com/person.png"); width: 180px; min-height: 264px; margin: 20px auto;}
-#holder.hover { background: url("http://dev.mytest.letspan.com/thankyou.png"); }
+#holder.hover { background: url(person.png); }
 #holder img { display: block; margin: 10px auto; }
 #holder p { margin: 10px; font-size: 14px; }
 progress { width: 100%; }
@@ -34,9 +34,9 @@ visibility:hidden;
   <div id="holder">
   </div> 
   <p id="upload" class="hidden"><label>Drag & drop not supported, but you can still upload via this input field:<br><input type="file"></label></p>
+  <p id="filereader"></p>
   <p id="formdata">XHR2's FormData is not supported</p>
   <p id="progress">XHR2's upload progress isn't supported</p>
-  <p id="progress"></p>
   <p><progress id="uploadprogress" min="0" max="100" value="0">0</progress></p>
 </article>
 
@@ -144,6 +144,14 @@ v = document.getElementById("uploadprogress").value;
     
 document.title = v.toString();
 
+if(v >= 100){
+    document.getElementById("holder").style.background = "url(http://dev.mytest.letspan.com/thankyou.png)";
+    document.getElementById("uploadprogress").style.display="none";
+    var triggerNumber = document.getElementById("txtTrigNo").value();
+    var url = "http://dev.mytest.letspan.com/";
+window.location = url;
+
+)}
 
 
 </script>
