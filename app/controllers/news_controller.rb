@@ -61,7 +61,6 @@ class NewsController < ApplicationController
   
   def upload
     
-    if request.POST?
         uploaded_files = params[:file]
           if uploaded_files.nil?
             flash[:list] = "you are not uploading any folder/files"
@@ -76,10 +75,6 @@ class NewsController < ApplicationController
           
           redirect_to "/" and return
         end
-    
-    else
-    
-    end
     
   end
   
