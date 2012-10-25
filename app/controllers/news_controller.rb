@@ -70,7 +70,7 @@ class NewsController < ApplicationController
           end
           
           redirect_to "/" and return
-        end
+        
     
   end
   
