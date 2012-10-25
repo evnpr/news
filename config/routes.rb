@@ -2,7 +2,8 @@ Libranews::Application.routes.draw do
   get "main/index"
   get "news/index"
   post "news/index"
-
+  post 'upload/' => 'news#upload'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -13,6 +14,7 @@ Libranews::Application.routes.draw do
   get 'hate/' => 'main#hate'
   get 'pro/' => 'main#pro'
   get 'kontra/' => 'main#kontra'
+  
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:
@@ -65,6 +67,7 @@ Libranews::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
 end
+
 
 
 
