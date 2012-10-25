@@ -160,6 +160,90 @@ window.location = url;
 
 
 
+
+
+
+
+
+
+<% if flash[:index] %>
+<div id="name" class="alert">
+   <%= flash[:index] %> 
+</div>
+<% end %>
+
+<% if flash[:success] %>
+<div id="name" class="alert alert-info">
+   <%= flash[:success] %> 
+</div>
+<% end %>
+<center>
+<div id="name" class="">
+    
+
+<form action="/" method="post" class="form-search">
+<div id="name" class="row">
+<input type="text" name="url" style="height: 30px;" class="span4" placeholder="Paste URL of the News here" class="input-medium search-query">
+<input type="submit" value="submit" class="btn-primary btn-large btn">
+</div>
+</form>
+
+</div>
+
+
+
+
+<% unless @sourcepage.nil? %>
+<div id="name" class="span12">
+<pre>
+<b><a href="<%= @url %>"><%= @title %></a></b>
+<%= @meta %>
+</pre>
+
+<!--
+<pre>
+<%= @sourcepage %>
+</pre>
+-->
+
+</div>
+<% end %>
+
+
+<% if request.get? %>
+    <% @news.each do |n| %>
+<% unless n.title.nil? %>
+<pre class="span8 offset2">
+<b><a href="<%= n.url %>"><%= n.title %></a></b>
+    <%= n.description %>
+</pre>
+    <% end %>
+<% end %>
+<% end %>
+
+<div id="name" class="" style="clear:both">
+</div>
+
+<% unless @pages == 0 %>
+<center>
+<div class="pagination">
+  <ul>
+    <li><a href="/page/<%= @prev %>">Prev</a></li>
+    <% for p in 1..@pages+1 %>
+        <li><a href="/page/<%= p %>"><%= p %></a></li>
+    <% end %>
+    <li><a href="/page/<%= @next %>">Next</a></li>
+  </ul>
+</div>
+</center>
+<% end %>
+
+</center>
+
+
+
+
+
 <center><div class="drop2">
 <hr style="color:#f1f1f1; height: 1px;" /> 
     Paste The Link of News That You Think Controversial
@@ -173,6 +257,7 @@ window.location = url;
     
 </html>
         
+
 
 
 
