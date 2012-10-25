@@ -1,4 +1,6 @@
 class NewsController < ApplicationController
+
+
   def index
         if request.post?
             urlpost = params[:url]
@@ -56,6 +58,32 @@ class NewsController < ApplicationController
             end
         end
   end
+  
+  def upload
+    
+    if request.POST?
+        uploaded_files = params[:file]
+          if uploaded_files.nil?
+            flash[:list] = "you are not uploading any folder/files"
+            redirect_to "/list?r="+params[:r] and return
+          end
+          `sudo chmod -R 777 #{@@directory}/#{dirfolder}`      
+          uploaded_files.each do |u|
+              File.open("#{@@directory}/#{dirfolder}/"+u.original_filename, 'wb') do |file|
+                file.write(u.read)
+                file.close
+              end
+          end
+        end
+    
+    else
+    
+    end
+    
+  end
+  
+  
 end
+
 
 
