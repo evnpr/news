@@ -131,7 +131,7 @@ width:800px;
     width: 40%;
     margin-right:15px;}
 
-.theEyes{
+.eyes{
     background:url(/assets/img/eyes.png) no-repeat;
     width:60px;
     height:53px;
@@ -142,7 +142,7 @@ width:800px;
     float:left;
     }
     
-.theEyes:hover, .theEyes a:focus{
+.eyes:hover, .eyes a:focus{
     background:url(/assets/img/eyeshover.png) no-repeat;
 }
 
