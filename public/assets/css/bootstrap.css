@@ -4297,6 +4297,7 @@ input[type="submit"].btn.btn-mini {
   position: absolute;
   width: 0;
   height: 0;
+  text-decoration:none;
 }
 
 .popover {
@@ -4939,6 +4940,7 @@ a.badge:hover {
 .invisible {
   visibility: hidden;
 }
+
 
 
 
