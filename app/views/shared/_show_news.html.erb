@@ -21,10 +21,12 @@
 <% if request.get? %>
     <% @news.each do |n| %>
     <% unless n.title.nil? %>
+      <div class="row">
         <pre class="">
         <b><a href="<%= n.url %>"><%= n.title %></a></b>
             <%= n.description %>
         </pre>
+      </div>
         <% end %>
     <% end %>
 <% end %>
