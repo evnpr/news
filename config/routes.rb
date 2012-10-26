@@ -8,7 +8,7 @@ Libranews::Application.routes.draw do
   # first created -> highest priority.
 
   # Sample of regular route:
-  match 'page/:page' => 'news#index'
+  match 'page/:page' => 'main#index'
   get 'main/' => 'main#index'
   get 'love/' => 'main#love'
   get 'hate/' => 'main#hate'
@@ -67,6 +67,7 @@ Libranews::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
 end
+
 
 
 
