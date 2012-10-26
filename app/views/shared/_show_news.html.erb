@@ -20,7 +20,7 @@
 <% if request.get? %>
     <% @news.each do |n| %>
     <% unless n.title.nil? %>
-      <div class="row">
+
 <pre class="span7">
 <b><a href="<%= n.url %>"><%= n.title %></a></b>
 <%= n.description %>
@@ -29,7 +29,7 @@
         <span class="btn btn-info">pro</span>
         <span class="btn btn-danger">cons</span>
         </div>
-      </div>
+
         <% end %>
     <% end %>
 <% end %>
