@@ -39,6 +39,7 @@ class MainController < ApplicationController
             redirect_to "/" and return
         else
             page = params[:page].to_i
+            
             @news = News.all(:order => "id DESC", :limit => 10, :offset => (page-1)*10)
             @pages = News.count / 10
             if @pages.nil?
@@ -77,5 +78,6 @@ class MainController < ApplicationController
   end
   
 end
+
 
 
