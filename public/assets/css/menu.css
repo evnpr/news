@@ -9,87 +9,87 @@ h1, p, body, html {
   src: url(/assets/fonts/PTSans.ttc);
 }
     
-.tooltip {
+.tooltips {
     		border-bottom: 1px dotted #000000; color: #000000; outline: none;
 			text-decoration: none;
 			position: absolute;
 		}
-		.tooltip span {
+		.tooltips span {
 			margin-left: -999em;
 			position: absolute;
 		}
-		.tooltip:hover span { 
+		.tooltips:hover span { 
 			font-family: Calibri, Tahoma, Geneva, sans-serif;
 			position: absolute; left: 2em; top: 5.5em; 
 			margin-left: 0;
 		}
         
-        .tooltip2 {
+        .tooltips2 {
         	border-bottom: 1px dotted #000000; color: #000000; outline: none;
 			text-decoration: none;
 			position: absolute;
             
 		}
-		.tooltip2 span {
+		.tooltips2 span {
 			margin-left: -999em;
 			position: absolute;
             
            
 		}
-		.tooltip2:hover span { 
+		.tooltips2:hover span { 
 			font-family: Calibri, Tahoma, Geneva, sans-serif;
 			position: absolute; left: 2em; top: 5.5em; 
             margin-left: 90;
             
 		}
         
-           .tooltip3 {
+           .tooltips3 {
             border-bottom: 1px dotted #000000; color: #000000; outline: none;
 			text-decoration: none;
 			position: absolute;
             
 		}
-		.tooltip3 span {
+		.tooltips3 span {
 			margin-left: -999em;
 			position: absolute;
             
            
 		}
-		.tooltip3:hover span { 
+		.tooltips3:hover span { 
 			font-family: Calibri, Tahoma, Geneva, sans-serif;
 			position: absolute; left: 2em; top: 5.5em; 
             margin-left: 160;
             
-		}   .tooltip4 {
+		}   .tooltips4 {
             border-bottom: 1px dotted #000000; color: #000000; outline: none;
 			text-decoration: none;
 			position: absolute;
             
 		}
-		.tooltip4 span {
+		.tooltips4 span {
 			margin-left: -999em;
 			position: absolute;
             
            
 		}
-		.tooltip4:hover span { 
+		.tooltips4:hover span { 
 			font-family: Calibri, Tahoma, Geneva, sans-serif;
 			position: absolute; left: 2em; top: 5.5em; 
             margin-left: 230;
             
-		}   .tooltip5 {
+		}   .tooltips5 {
             border-bottom: 1px dotted #000000; color: #000000; outline: none;
 			text-decoration: none;
 			position: absolute;
             
 		}
-		.tooltip5 span {
+		.tooltips5 span {
 			margin-left: -999em;
 			position: absolute;
             
            
 		}
-		.tooltip5:hover span { 
+		.tooltips5:hover span { 
 			font-family: Calibri, Tahoma, Geneva, sans-serif;
 			position: absolute; left: 2em; top: 5.5em; 
             margin-left: 300;
@@ -236,6 +236,7 @@ padding-top: 10px;
      margin: auto 0;
      
     }
+
 
 
 
