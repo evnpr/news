@@ -21,8 +21,7 @@
     <% @news.each do |n| %>
     <% unless n.title.nil? %>
       <div class="row">
-        <pre class="span7">
-<b><a href="<%= n.url %>"><%= n.title %></a></b>
+        <pre class="span7"><b><a href="<%= n.url %>"><%= n.title %></a></b>
 <%= n.description %>
         </pre>
         <div style="padding-top: 30px;">
