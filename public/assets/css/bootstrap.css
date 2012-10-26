@@ -4279,6 +4279,7 @@ input[type="submit"].btn.btn-mini {
   border-top: 5px solid transparent;
   border-right: 5px solid #000000;
   border-bottom: 5px solid transparent;
+  text-decoration:none;
 }
 
 .tooltip-inner {
