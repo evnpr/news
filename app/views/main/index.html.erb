@@ -213,7 +213,7 @@ window.location = url;
 <% if request.get? %>
     <% @news.each do |n| %>
 <% unless n.title.nil? %>
-<pre class="span8 offset2">
+<pre class="span4">
 <b><a href="<%= n.url %>"><%= n.title %></a></b>
     <%= n.description %>
 </pre>
@@ -257,6 +257,7 @@ window.location = url;
     
 </html>
         
+
 
 
 
