@@ -5,7 +5,7 @@
     </head>
     
     <body>
-<% unless @pages == 0 %>
+<% if @pages == 0 %>
     <div class="started">
         <b>Get Started: </b>1.Drop the images of your representatives, and don't forget to name it
                         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.Paste the link of news that you think controversial, submit, and you can choose "Pro" or "Contra" about the news
@@ -160,7 +160,7 @@ window.location = url;
 <hr style="color:#f1f1f1; height: 1px;" />       
 
 
-<% end %>
+<% end #end of if @pages == 0 %>
 
 
 
