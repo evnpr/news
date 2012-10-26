@@ -4220,6 +4220,7 @@ input[type="submit"].btn.btn-mini {
   opacity: 0;
   filter: alpha(opacity=0);
   visibility: visible;
+  text-decoration: none;
 }
 
 .tooltip.in {
@@ -4937,5 +4938,6 @@ a.badge:hover {
 .invisible {
   visibility: hidden;
 }
+
 
 
