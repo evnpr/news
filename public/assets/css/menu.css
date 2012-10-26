@@ -131,7 +131,7 @@ width:800px;
     width: 40%;
     margin-right:15px;}
 
-.eyes{
+.theEyes{
     background:url(/assets/img/eyes.png) no-repeat;
     width:60px;
     height:53px;
@@ -236,5 +236,6 @@ padding-top: 10px;
      margin: auto 0;
      
     }
+
 
 
