@@ -16,7 +16,7 @@
 </div>
 <% end %>
 
-
+<div class="row">
 <% if request.get? %>
     <% @news.each do |n| %>
     <% unless n.title.nil? %>
@@ -33,7 +33,7 @@
         <% end %>
     <% end %>
 <% end %>
-
+</div>
 
 <% unless @pages == 0 %>
 <center>
@@ -48,6 +48,7 @@
 </div>
 </center>
 <% end %>
+
 
 
 
