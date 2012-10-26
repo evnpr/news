@@ -22,7 +22,7 @@
     <% @news.each do |n| %>
     <% unless n.title.nil? %>
       <div class="row">
-        <pre class="">
+        <pre class="span5">
         <b><a href="<%= n.url %>"><%= n.title %></a></b>
             <%= n.description %>
         </pre>
