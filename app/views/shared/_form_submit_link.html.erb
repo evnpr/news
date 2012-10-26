@@ -1,0 +1,25 @@
+<% if flash[:index] %>
+<div id="name" class="alert">
+   <%= flash[:index] %> 
+</div>
+<% end %>
+
+<% if flash[:success] %>
+<div id="name" class="alert alert-info">
+   <%= flash[:success] %> 
+</div>
+<% end %>
+<center>
+<div id="name" class="">
+    
+
+<form action="/" method="post" class="form-search">
+<div id="name" class="row">
+<input type="text" name="url" style="height: 30px;" class="span4" placeholder="Paste URL of the News here" class="input-medium search-query">
+<input type="submit" value="submit" class="btn-primary btn-large btn">
+</div>
+</form>
+
+</div>
+
+
