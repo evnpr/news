@@ -14,7 +14,13 @@ Libranews::Application.routes.draw do
   get 'hate/' => 'main#hate'
   get 'pro/' => 'main#pro'
   get 'kontra/' => 'main#kontra'
+
+
   
+  match 'pros/:newsid' => 'news#pros'
+  match 'cons/:newsid' => 'news#cons'
+
+
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:

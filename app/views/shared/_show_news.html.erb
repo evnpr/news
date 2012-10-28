@@ -20,14 +20,18 @@
 <% if request.get? %>
     <% @news.each do |n| %>
     <% unless n.title.nil? %>
+    
 <div class="row">
 <pre class="span7">
 <b><a href="<%= n.url %>"><%= n.title %></a></b>
 <%= n.description %>
+
+     <font color="red">pro : <%= n.pros.count %>         cons : <%= n.conss.count %></font>
+
 </pre>
         <div style="padding-top: 10px;">
-        <span class="btn btn-info">pro</span>
-        <span class="btn btn-danger">cons</span>
+        <a href="/pros/<%= n.id %>"><span class="btn btn-info">pro</span></a>
+        <a href="/cons/<%= n.id %>"><span class="btn btn-danger">cons</span></a>
         </div>
 </div>
         <% end %>
