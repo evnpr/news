@@ -88,7 +88,7 @@ class NewsController < ApplicationController
         p.save
 
         if Rating.exists?(:news_id => news_id)
-            r = Rating.where(:news_id => news_id)
+            r = Rating.where(:news_id => news_id).first
             r.weight = r.weight + 1.0
             r.save
         else
@@ -113,7 +113,7 @@ class NewsController < ApplicationController
         p.save
 
         if Rating.exists?(:news_id => news_id)
-            r = Rating.where(:news_id => news_id)
+            r = Rating.where(:news_id => news_id).first
             r.weight = r.weight - 1.0
             r.save
         else
