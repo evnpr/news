@@ -218,12 +218,12 @@ width:800px;
     
 .tagline{
 color: #ffffff;
-font-size: large;
+font-size: smaller;
 float:left;
 padding-top: 14px;
 }
 
-.tagline2{
+.tagline{
 color: #ffffff;
 font-size: smaller;
 float:left;
