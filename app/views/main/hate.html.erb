@@ -1,1 +1,17 @@
-hate
+        <link rel="stylesheet" href="/assets/css/mainindex.css" type="text/css" media="screen" />
+    
+
+
+<%
+@listfile.each do |f|
+
+f = f.split("public/")[1]
+
+%>
+
+<img src="/<%= f %>" height="230" />
+
+
+<% 
+end 
+%>

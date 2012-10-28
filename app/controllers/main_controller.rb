@@ -66,7 +66,7 @@ class MainController < ApplicationController
   end
   
   def hate
-  
+        @listfile = Dir.glob(Rails.root.to_s+"/public/hate/*")
   end
   
   def pro

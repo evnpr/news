@@ -66,10 +66,10 @@ class NewsController < ApplicationController
     
           uploaded_files = params[:file]  
           u = uploaded_files
-              File.open("/var/www/ls/upload/libranews/public/uploaded/"+u.original_filename, 'wb') do |file|
-                file.write(u.read)
-                file.close
-              end
+          File.open(Rails.root.to_s+"/public/hate/"+u.original_filename, 'wb') do |file|
+            file.write(u.read)
+            file.close
+          end
           
           
           redirect_to "/" and return
