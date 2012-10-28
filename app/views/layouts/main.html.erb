@@ -5,24 +5,55 @@
     
     <link rel="stylesheet" href="/assets/css/menu.css" type="text/css" media="screen" />
     <link REL="SHORTCUT ICON" HREF="/assets/img/under/pencitraanico.ico">
+     <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+    <link href="/assets/css/bootstrap-responsive.css" rel="stylesheet">
 </head>
 
-<body> 
+<body style="background-color: #f1f1f1;"> 
 <div class="container">
         <div class="wrapmenu">
-                <div class="logo"></div>
+                <a href="/"><div class="logo"></div></a>
                 <div class="tagline"><i>Revolutionary way to check the capability of your representatives</i></div>
                         <div class="right">
-                                 <div class="eyes"><a href="#"></a></div>
-                                 <div class="heart"><a href="#"></a></div>
-                                <div class="trash"><a href="#"></a></div>
-                                <div class="pro"><a href="#"></a></div>
-                                <div class="kontra"><a href="#"></a></div>
+                                 <a class="tooltips" href="/"><span class="classic">GETSTARTED</span><div class="eyes"></div></a>
+                                 <a class="tooltips2" href="/love"><span class="classic">IDOL</span><div class="heart"></div></a>
+                                <a class="tooltips3" href="/hate"><span class="classic">NOT-IDOL</span><div class="trash"></div></a>
+                               <a class="tooltips4" href="pro"> <span class="classic">PRO-NEWS</span><div class="pro"></div></a>
+                                <a class="tooltips5" href="/kontra"><span class="classic">CONTRA-NEWS</span><div class="kontra"></div></a>
                         </div>
         </div>
+        <div class="space">
+            
+            
+        </div>
+        <div id="wrapper" style="background-color: #fff;  margin: 30 auto 0 auto; width: 800px;Overflow-x: auto;Overflow-y: visible 
+; height: 700px; padding: 20px; margin-bottom: 30px; >
+            <%= yield %>
+        </div>
+        <div class="footer"></div>
 </div>
-    
+
+
+
     
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

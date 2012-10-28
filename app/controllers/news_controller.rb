@@ -1,4 +1,6 @@
 class NewsController < ApplicationController
+
+
   def index
         if request.post?
             urlpost = params[:url]
@@ -41,6 +43,9 @@ class NewsController < ApplicationController
             page = params[:page].to_i
             @news = News.all(:order => "id DESC", :limit => 10, :offset => (page-1)*10)
             @pages = News.count / 10
+            if @pages.nil?
+                @pages = 0
+            end
             unless page==1
                 @prev = page - 1
             else
@@ -56,6 +61,25 @@ class NewsController < ApplicationController
             end
         end
   end
+  
+  def upload
+    
+          uploaded_files = params[:file]  
+          u = uploaded_files
+              File.open("/var/www/ls/upload/libranews/public/uploaded/"+u.original_filename, 'wb') do |file|
+                file.write(u.read)
+                file.close
+              end
+          
+          
+          redirect_to "/" and return
+        
+    
+  end
+  
+  
 end
+
+
 
 

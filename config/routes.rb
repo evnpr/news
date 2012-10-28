@@ -1,14 +1,20 @@
 Libranews::Application.routes.draw do
   get "main/index"
-
+  get "news/index"
   post "news/index"
-
+  post 'upload/' => 'news#upload'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
   # Sample of regular route:
-  match 'page/:page' => 'news#index'
+  match 'page/:page' => 'main#index'
   get 'main/' => 'main#index'
+  get 'love/' => 'main#love'
+  get 'hate/' => 'main#hate'
+  get 'pro/' => 'main#pro'
+  get 'kontra/' => 'main#kontra'
+  
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:
@@ -53,7 +59,7 @@ Libranews::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'news#index'
+  root :to => 'main#index'
 
   # See how all your routes lay out with "rake routes"
 
@@ -61,6 +67,11 @@ Libranews::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
 end
+
+
+
+
+
 
 
 

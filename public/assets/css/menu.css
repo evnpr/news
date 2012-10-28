@@ -1,12 +1,113 @@
 h1, p, body, html {
     margin:0;
-	padding:0;}
+	padding:0;
+    font-family: ‘PTSans’,Trebuchet MS, Helvetica, sans-serif;
+}
+    
+@font-face {
+  font-family: PTSans.ttc;
+  src: url(/assets/fonts/PTSans.ttc);
+}
+    
+.tooltips {
+    		border-bottom: 1px dotted #000000; color: #000000; outline: none;
+			text-decoration: none;
+			position: absolute;
+		}
+		.tooltips span {
+			margin-left: -999em;
+			position: absolute;
+		}
+		.tooltips:hover span { 
+			font-family: Calibri, Tahoma, Geneva, sans-serif;
+			position: absolute; left: 2em; top: 5.5em; 
+			margin-left: 0;
+		}
+        
+        .tooltips2 {
+        	border-bottom: 1px dotted #000000; color: #000000; outline: none;
+			text-decoration: none;
+			position: absolute;
+            
+		}
+		.tooltips2 span {
+			margin-left: -999em;
+			position: absolute;
+            
+           
+		}
+		.tooltips2:hover span { 
+			font-family: Calibri, Tahoma, Geneva, sans-serif;
+			position: absolute; left: 2em; top: 5.5em; 
+            margin-left: 90;
+            
+		}
+        
+           .tooltips3 {
+            border-bottom: 1px dotted #000000; color: #000000; outline: none;
+			text-decoration: none;
+			position: absolute;
+            
+		}
+		.tooltips3 span {
+			margin-left: -999em;
+			position: absolute;
+            
+           
+		}
+		.tooltips3:hover span { 
+			font-family: Calibri, Tahoma, Geneva, sans-serif;
+			position: absolute; left: 2em; top: 5.5em; 
+            margin-left: 160;
+            
+		}   .tooltips4 {
+            border-bottom: 1px dotted #000000; color: #000000; outline: none;
+			text-decoration: none;
+			position: absolute;
+            
+		}
+		.tooltips4 span {
+			margin-left: -999em;
+			position: absolute;
+            
+           
+		}
+		.tooltips4:hover span { 
+			font-family: Calibri, Tahoma, Geneva, sans-serif;
+			position: absolute; left: 2em; top: 5.5em; 
+            margin-left: 230;
+            
+		}   .tooltips5 {
+            border-bottom: 1px dotted #000000; color: #000000; outline: none;
+			text-decoration: none;
+			position: absolute;
+            
+		}
+		.tooltips5 span {
+			margin-left: -999em;
+			position: absolute;
+            
+           
+		}
+		.tooltips5:hover span { 
+			font-family: Calibri, Tahoma, Geneva, sans-serif;
+			position: absolute; left: 2em; top: 5.5em; 
+            margin-left: 300;
+            
+		}
+.classic { padding: 0.1px 5px; 
+        background: #FFFFAA; 
+        box-shadow: 0.1px 0.1px 0.5px black;
+        font-size:xx-small;}
+        
+        
 
 .logo{
 background: url(/assets/img/logo.png) no-repeat;
 width: 60px;
 height: 48px;
 float:left;
+margin-left: -25px;
  }
  
  .container{
@@ -21,13 +122,14 @@ float:left;
 margin-left: auto;
 margin-right: auto;
 height: 50px;
-width:960px;
+width:800px;
 
 }
 
 .right{
     float:right;
-    width: 40%;}
+    width: 40%;
+    margin-right:15px;}
 
 .eyes{
     background:url(/assets/img/eyes.png) no-repeat;
@@ -40,9 +142,11 @@ width:960px;
     float:left;
     }
     
-.eyes:hover{
+.eyes:hover, .eyes a:focus{
     background:url(/assets/img/eyeshover.png) no-repeat;
 }
+
+
 
 .heart{
     
@@ -102,7 +206,7 @@ width:960px;
     z-index:1;
     cursor:pointer;
     margin-top: 2px;
-    margin-left: 320px;
+    margin-left: 310px;
     float:left;
     }
 .kontra:hover{
@@ -118,3 +222,21 @@ font-size: smaller;
 float:left;
 padding-top: 14px;
 }
+
+
+.space {
+padding-top: 10px;
+
+}
+
+.footer {
+ background: #2f2f30;
+     width: 100%;
+     height: 183px;
+     margin: auto 0;
+     
+    }
+
+
+
+

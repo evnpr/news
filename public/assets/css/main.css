@@ -1,7 +1,6 @@
 body
 {
 background: #236a9b;
-
 }
 
 
@@ -22,6 +21,17 @@ width: 400px;
 height:97px;
 }
 
+.tooltip:focus
+{
+border-bottom: dotted #000000; color: #000000; outline: none;
+cursor:pointer; text-decoration: none;
+position: relative;
+font-family: "Trebuchet MS";
+font-size:x-small;
+display: none;   
+    
+}
+
 .launch
 {
 background: url(/assets/img/under/launch.png) no-repeat;
@@ -29,6 +39,8 @@ width: 707px;
 height:30px;
 margin-top: 50px;
 }
+
+
 
 
 

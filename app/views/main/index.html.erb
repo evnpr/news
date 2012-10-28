@@ -1,2 +1,60 @@
-<h1>Main#index</h1>
-<p>Find me in app/views/main/index.html.erb</p>
+<html>
+    <head>
+        <title> </title>
+        <link rel="stylesheet" href="/assets/css/mainindex.css" type="text/css" media="screen" />
+    </head>
+    
+    <body>
+<% page = params[:page].to_i %>
+<% if page <= 1  %>
+  
+    
+    
+    <center><div class="drop">
+    </div>
+    </center>
+
+    <%= render :partial => "shared/upload" %>
+
+
+    <hr style="color:#f1f1f1; height: 1px;" />       
+
+
+<% end #end of if @pages == 0 %>
+
+
+
+
+<%= render :partial => "shared/form_submit_link" %>
+
+<%= render :partial => "shared/show_news" %>
+
+
+
+
+<center><div class="drop2">
+<hr style="color:#f1f1f1; height: 1px;" /> 
+</div>
+</center>
+
+ 
+
+<hr style="color:#f1f1f1; height: 1px;" /> 
+    </body>
+    
+</html>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+

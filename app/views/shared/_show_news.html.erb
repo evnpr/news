@@ -1,0 +1,58 @@
+<% unless @sourcepage.nil? %>
+
+
+<div id="name" class="">
+<pre>
+<b><a href="<%= @url %>"><%= @title %></a></b>
+<%= @meta %>
+</pre>
+
+<!--
+<pre>
+<%= @sourcepage %>
+</pre>
+-->
+
+</div>
+<% end %>
+
+
+<% if request.get? %>
+    <% @news.each do |n| %>
+    <% unless n.title.nil? %>
+<div class="row">
+<pre class="span7">
+<b><a href="<%= n.url %>"><%= n.title %></a></b>
+<%= n.description %>
+</pre>
+        <div style="padding-top: 10px;">
+        <span class="btn btn-info">pro</span>
+        <span class="btn btn-danger">cons</span>
+        </div>
+</div>
+        <% end %>
+    <% end %>
+<% end %>
+
+
+<% unless @pages == 0 %>
+<center>
+<div class="pagination">
+  <ul>
+    <li><a href="/page/<%= @prev %>">Prev</a></li>
+    <% for p in 1..@pages+1 %>
+        <li><a href="/page/<%= p %>"><%= p %></a></li>
+    <% end %>
+    <li><a href="/page/<%= @next %>">Next</a></li>
+  </ul>
+</div>
+</center>
+<% end %>
+
+
+
+
+
+
+
+
