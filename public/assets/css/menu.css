@@ -223,6 +223,12 @@ float:left;
 padding-top: 14px;
 }
 
+.tagline2{
+color: #ffffff;
+font-size: smaller;
+float:left;
+padding-top: 14px;
+}
 
 .space {
 padding-top: 10px;
@@ -236,6 +242,7 @@ padding-top: 10px;
      margin: auto 0;
      
     }
+
 
 
 
