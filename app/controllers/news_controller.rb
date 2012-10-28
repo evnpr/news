@@ -79,7 +79,6 @@ class NewsController < ApplicationController
 
   def pros
        
-        
         news_id = params[:newsid]
 
         p = Pro.new()
@@ -98,13 +97,14 @@ class NewsController < ApplicationController
             r.save
         end
 
-
+        session[:rate] = 1
+        flash[:index] = "thanks you! (pro)"
         redirect_to "/" and return 
 
   end
 
   def cons
-        
+
         news_id = params[:newsid]
 
         p = Cons.new()
@@ -123,6 +123,9 @@ class NewsController < ApplicationController
             r.save
         end
 
+
+        session[:rate] = 1
+        flash[:index] = "thanks you! (cons)"
         redirect_to "/" and return 
 
   end

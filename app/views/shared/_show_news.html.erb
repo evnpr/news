@@ -25,6 +25,9 @@
 <pre class="span7">
 <b><a href="<%= n.url %>"><%= n.title %></a></b>
 <%= n.description %>
+
+     <font color="red">pro : <%= n.pros.count %>         cons : <%= n.conss.count %></font>
+
 </pre>
         <div style="padding-top: 10px;">
         <a href="/pros/<%= n.id %>"><span class="btn btn-info">pro</span></a>
