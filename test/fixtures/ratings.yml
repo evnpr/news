@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  type: false
+  news_id: 1
+  user_id: 1
+  weight: 1.5
+
+two:
+  type: false
+  news_id: 1
+  user_id: 1
+  weight: 1.5

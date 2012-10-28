@@ -76,6 +76,56 @@ class NewsController < ApplicationController
         
     
   end
+
+  def pros
+       
+        
+        news_id = params[:newsid]
+
+        p = Pro.new()
+        p.news_id = news_id
+        p.user_id = 1       #temp id for user
+        p.save
+
+        if Rating.exists?(:news_id => news_id)
+            r = Rating.where(:news_id => news_id)
+            r.weight = r.weight + 1
+            r.save
+        else
+            r = Rating.new()
+            r.news_id = news_id
+            r.weight = 1
+            r.save
+        end
+
+
+        redirect_to "/" and return 
+
+  end
+
+  def cons
+        
+        news_id = params[:newsid]
+
+        p = Cons.new()
+        p.news_id = news_id
+        p.user_id = 1       #temp id for user
+        p.save
+
+        if Rating.exists?(:news_id => news_id)
+            r = Rating.where(:news_id => news_id)
+            r.weight = r.weight - 1
+            r.save
+        else
+            r = Rating.new()
+            r.news_id = news_id
+            r.weight = -1
+            r.save
+        end
+
+        redirect_to "/" and return 
+
+  end
   
   
 end
